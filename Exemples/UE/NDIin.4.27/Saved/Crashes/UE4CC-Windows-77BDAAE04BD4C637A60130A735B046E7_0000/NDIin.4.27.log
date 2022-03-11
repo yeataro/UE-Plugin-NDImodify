@@ -1283,21 +1283,3 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 Script Stack (0 frames):
 
 [2022.03.11-20.44.37:474][712]LogWindows: Windows GetLastError: 操作順利完成。 (0)
-[2022.03.11-20.44.38:412][712]LogWindows: Error: === Critical error: ===
-[2022.03.11-20.44.38:412][712]LogWindows: Error: 
-[2022.03.11-20.44.38:412][712]LogWindows: Error: Assertion failed: IsInRenderingThread() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/RenderCore/Private/RenderTargetPool.cpp] [Line: 1340] 
-[2022.03.11-20.44.38:412][712]LogWindows: Error: Tried to delete on non-render thread, PooledRT NDIIO (2D 1280x720 PF_B8G8R8A8 RT)
-[2022.03.11-20.44.38:412][712]LogWindows: Error: 
-[2022.03.11-20.44.38:412][712]LogWindows: Error: 
-[2022.03.11-20.44.38:412][712]LogWindows: Error: [Callstack] 0x00007ffae9394f69 KERNELBASE.dll!UnknownFunction []
-[2022.03.11-20.44.38:412][712]LogWindows: Error: [Callstack] 0x00007ffa8d3039b8 UE4Editor-Core.dll!UnknownFunction []
-[2022.03.11-20.44.38:412][712]LogWindows: Error: [Callstack] 0x00000092575793f0 UnknownFunction []
-[2022.03.11-20.44.38:412][712]LogWindows: Error: [Callstack] 0x0000000000000400 UnknownFunction []
-[2022.03.11-20.44.38:412][712]LogWindows: Error: [Callstack] 0x000000000000006b UnknownFunction []
-[2022.03.11-20.44.38:412][712]LogWindows: Error: [Callstack] 0x0000000000004000 UnknownFunction []
-[2022.03.11-20.44.38:412][712]LogWindows: Error: 
-[2022.03.11-20.44.38:423][712]LogExit: Executing StaticShutdownAfterError
-[2022.03.11-20.44.38:425][712]LogWindows: FPlatformMisc::RequestExit(1)
-[2022.03.11-20.44.38:425][712]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
-[2022.03.11-20.44.38:425][712]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
-[2022.03.11-20.44.38:432][712]Log file closed, 03/12/22 04:44:38
